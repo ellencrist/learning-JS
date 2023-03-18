@@ -1,0 +1,38 @@
+<meta charset="utf-8">
+<script>
+function pulaLinha() {
+	document.write("<br><br>");
+	// body...
+}
+
+function mostra(frase){
+	document.write(frase);
+	pulaLinha();
+}
+//um final de um bloco é final de uma instrução
+
+//para definir mais um parametro utilizar a virgula
+function calculaImc(peso, altura){
+	var imc = peso / (altura*altura);
+	return imc;
+}
+
+ var imcPedro = calculaImc(50, 1.55);
+var imcEllen = calculaImc(67, 1.77);
+
+mostra(imcPedro);
+mostra(imcEllen);
+
+
+
+
+
+
+
+
+
+
+</script>
+
+
+

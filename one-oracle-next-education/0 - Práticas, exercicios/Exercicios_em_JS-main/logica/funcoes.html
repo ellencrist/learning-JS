@@ -1,0 +1,30 @@
+<meta charset="utf-8">
+<script type="text/javascript">
+//funções tem que ficar no começo do código
+	function pulaLinha(){
+		document.write("<br><br>");
+		document.write("<br>");
+	}
+//"frase"(palavra aleatoria) é considerada uma variavel/parametro
+function mostra(frase){
+	//instruções
+	document.write(frase);
+	pulaLinha();
+}//blocos "{}"
+
+//uma  função pode ter a chamada de outra função
+//para chamar uma função declarada deve-se usar (); no fim do nome
+var ano = 2022
+
+mostra("pedro tem "+(ano-1997)+" anos");
+
+mostra("melissa tem "+(ano-1999)+" anos");
+
+ano = 2022;
+
+mostra("diego tem: "+ (ano-1970)+" anos");
+
+mostra("olá pessoal")
+
+mostra("olá")
+</script>
